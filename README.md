@@ -1,10 +1,24 @@
 Host your own SMS prize competition using SMS pi but can be altered to use any SMS Service.
 
-Upload the database to your mysql server
+import the database to your mysql server
 
 Change the config.php to your settings
 
-Upload.
+```
+// Mysql Config
+$dbuser = "YOUDBUSERNAME";
+$dbpass = "YOURDBPASS";
+$dbname = "YOURDATABASENAME";
+$dbhost = "localhost";
+```
+
+```
+//SMSPI HASH
+$hash ="";
+
+```
+
+Upload files.
 
 go to the url for your site i.e http://localhost/smsprize/settings.php
 
